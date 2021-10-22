@@ -33,7 +33,7 @@ This tool is a practice for security professionals and network engineers and all
   - wlan sniff
   - blue snarf
   - arp spoof
-  - wifi deauth
+  - wifi deauthentication
  
 ### Operating Systems Tested
 
