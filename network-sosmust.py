@@ -650,17 +650,14 @@ def wifi_death():
     dot11 = Dot11(addr1=target_mac, addr2=gateway_mac, addr3=gateway_mac)
     packet = RadioTap()/dot11/Dot11Deauth(reason=7)
     sendp(packet, inter=0.1, count=100, iface=inter, verbose=1)
+    
+os.system("sudo apt-get install -y neofetch ")
+os.system("clear")
+os.system("neofetch")
 
-bannerss = """
-            _                      _                                        
- _ __   ___| |___      _____  _ __| | __  ___ _   _ ___ _ __ ___   __ _ ____
-| '_ \ / _ \ __\ \ /\ / / _ \| '__| |/ / / __| | | / __| '_ ` _ \ / _` |_  /
-| | | |  __/ |_ \ V  V / (_) | |  |   <  \__ \ |_| \__ \ | | | | | (_| |/ / 
-|_| |_|\___|\__| \_/\_/ \___/|_|  |_|\_\ |___/\__,_|___/_| |_| |_|\__,_/___|
-                                                                            
-"""
 
-print (colorama.Fore.RED + bannerss)
+
+
 
 def cve():
     print (colorama.Fore.BLUE,"""
