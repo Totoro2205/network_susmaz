@@ -5,7 +5,7 @@
 
 </h1>
 <h3 align="center"> welcome to network susmaz </h3> 
-<h4 align="center">coded with ammicheh or yaser</h4>
+<h4 align="center">coded by ammicheh or yaser</h4>
 
 
 
